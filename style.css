@@ -1,10 +1,38 @@
-/* Inizio regole da applicare ad ogni elemento della pagina */
+/* Inizio regole in comune della pagina*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+.container{
+    width: 80%;
+    max-width: 1180px;
+    margin: auto;
+    background-color: gray;
+    height: 600px;
+}
+
+/* Fine regole in comune della pagina */
 
 
-/* Fine regole da applicare ad ogni elemento della pagina */
+/* Inizo regole header */
+.row{
+    height: 100px;
+    background-color: red;
+    position: fixed;
+    top: 0;
+    width:100%;
+    left:0px;
+}
+
+/* Fine regole header */
+
+/* Inizio regole jumbotron */
+#jumbotron{
+    background-color: #b4d0e7;
+    width: 100vw;
+    min-height: 600px;
+}
+
+/* Inizio regole jumbotron */
