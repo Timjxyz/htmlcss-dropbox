@@ -42,6 +42,13 @@ section::after{
     clear: both;
 }
 
+.container-responsive::after{
+    display: table;
+    content: "";
+    clear: both;
+
+}
+
 .clearfix{
     clear: both;
 }
@@ -152,7 +159,7 @@ main{
 /* Inizio sezione brand-partner  */
 .container-responsive{
     width: 100vw;
-    height: 600px;
+    height: 700px;
     background-color: orange;
 }
 
@@ -193,8 +200,8 @@ main{
 }
 
 .brand{
-    width:calc(100%/ 4);
     height: 300px;
+    width:calc(100%/ 4);
     float: left;
 }
 
@@ -207,11 +214,20 @@ main{
 
 /* Inizio sezione faq  */
 .faq{
-    
+    height: 600PX;
     background-color: honeydew;
 }
 
-/* Inizio sezione faq  */
+/* Fine  sezione faq  */
 
 
 /* Fine regole da applicare a main e alle sue sezioni */
+
+/* Inizio del footer */
+.footer-nav{
+    background-color: black;
+    height: 600px;
+}
+
+
+/* Fine del footer */
