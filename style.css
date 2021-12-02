@@ -1,0 +1,10 @@
+/* Inizio regole da applicare ad ogni elemento della pagina */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Fine regole da applicare ad ogni elemento della pagina */
