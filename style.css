@@ -8,9 +8,22 @@
 .container{
     width: 80%;
     max-width: 1180px;
+    min-width: 780px;
     margin: auto;
     background-color: gray;
     height: 600px;
+}
+
+nav::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+
+.container::after{
+    display: table;
+    content: "";
+    clear: both;
 }
 
 /* Fine regole in comune della pagina */
@@ -24,15 +37,78 @@
     top: 0;
     width:100%;
     left:0px;
+    z-index: 999999;
 }
 
 /* Fine regole header */
 
 /* Inizio regole jumbotron */
 #jumbotron{
+    margin-top: 100px;
     background-color: #b4d0e7;
     width: 100vw;
     min-height: 600px;
+    min-width: 780px;
 }
 
 /* Inizio regole jumbotron */
+
+
+
+/* Inizio regole da applicare a main e alle sue sezioni */
+main{
+    width: 100vw;
+}
+
+/* Inizio prima sezione TARIFFE */
+
+.rates{
+    width: 100%;
+    min-height: 1000px;
+    padding: 120px 0;
+    background-color: green;
+}
+
+.title-rates{
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+
+.col{
+    height: 500px;
+    width: 100%;
+    float: left;
+}
+
+.col.col-sx{
+    width: 33.3%;
+    background-color: indigo;
+
+}
+
+.col.col-middle{
+    width: 33.3%;
+    background-color: lawngreen;
+    padding: 0 40px;
+
+}
+
+.col.col-dx{
+    width: 33.3%;
+    background-color: maroon;
+
+}
+
+.col.col-bottom{
+    width: 100%;
+    height: 200px;
+    background-color: mediumorchid;
+
+}
+
+
+/* Fine prima sezione TARIFFE */
+
+
+/* Inizio regole da applicare a main e alle sue sezioni */
