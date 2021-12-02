@@ -5,6 +5,10 @@
     box-sizing: border-box;
 }
 
+body {
+    overflow-x:hidden;
+}
+
 .container{
     width: 80%;
     max-width: 1180px;
@@ -15,12 +19,12 @@
 }
 
 .col{
-    height: 500px;
+    height: 300px;
     width: 100%;
     float: left;
 }
 /* Inizio regole con after */
-nav::after{
+.col::after{
     display: table;
     content: "";
     clear: both;
@@ -37,6 +41,10 @@ section::after{
     content: "";
     clear: both;
 }
+
+.clearfix{
+    clear: both;
+}
 /* Fine regole con after */
 
 /* Fine regole in comune della pagina */
@@ -44,6 +52,7 @@ section::after{
 
 /* Inizo regole header */
 .row{
+    min-width: 780px;
     height: 100px;
     background-color: red;
     position: fixed;
@@ -139,5 +148,60 @@ main{
 
 /* Fine sezione offerte business */
 
+
+/* Inizio sezione brand-partner  */
+.container-responsive{
+    width: 100vw;
+    height: 600px;
+    background-color: orange;
+}
+
+.container-responsive .container{
+    background-color: blue;
+    height: 100px;
+    margin-bottom: 50px;
+}
+
+.brand-partner{
+    width: 100%;
+    min-height: 600px;
+    min-width: 780px;
+    
+}
+
+.colsx{
+    float: left;
+    width: 30%;
+    background-color: crimson;
+    max-height: 600px;
+}
+
+.colmid{
+    float: left;
+    width: 40%;
+    background-color: cyan;
+    max-height: 600px;
+    overflow-y: auto;
+    text-align: justify;
+}
+
+.coldx{
+    float: left;
+    width: 30%;
+    background-color: darkmagenta;
+    max-height: 600px;
+}
+
+.brand{
+    width:calc(100%/ 4);
+    height: 300px;
+    float: left;
+}
+
+
+.try-free{
+    min-height: 400px;
+    background-color: #b4d0e7;
+}
 
 /* Inizio regole da applicare a main e alle sue sezioni */
