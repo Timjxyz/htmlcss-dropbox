@@ -20,20 +20,20 @@
 
             <!-- Lista dei vari tag "a-link"-->
             <nav>
-                <a href="#"><img src="img/logo-small.png" alt="logo dropbox"></a>
-
+   
                 <!-- Lista di sinistra -->
                 <ul class="left-nav">
-                    <li><a href="#">Perché Dropbox?</a></li>
-                    <li><a href="#">Funzioni</a></li>
-                    <li><a href="#">Piani e prezzi</a></li>
+                    <li><a href="#"><img src="img/logo-small.png" alt="logo dropbox"></a></li>
+                    <li><a class="here" href="#">Perché Dropbox?</a></li>
+                    <li><a class="here" href="#">Funzioni</a></li>
+                    <li><a class="here" href="#">Piani e prezzi</a></li>
                 </ul>
                 
                 <!-- Lista di destra -->
                 <ul class="right-nav">
-                    <li><a href="#">Supporto</a></li>
-                    <li><a href="#">Contatta l'ufficio vendite</a></li>
-                    <li><a href="#">Accedi</a></li>
+                    <li><a class="here" href="#">Supporto</a></li>
+                    <li><a class="here" href="#">Contatta l'ufficio vendite</a></li>
+                    <li><a class="here"href="#">Accedi</a></li>
                      <li><a class="btn" href="#">Inizia</a></li>  
                    </span>
                 </ul>
@@ -43,10 +43,14 @@
         </div>
 
     </header>
+    <!-- Fine header -->
+
+
+
     
     <!-- Inizio del jumbotron -->
     <section id="jumbotron">
-        <div class="container">
+        <div class="container-jumbo">
 
             <!-- Titolo della pagina -->
             <div id="title">
@@ -63,48 +67,204 @@
                     <a class="btn" href="#">Inizia la tua prova gratuita</a>
                     <div class="cancel">Annulla in qualsiasi momento</div>
                     <a id="ancora" href=""><i class="fas fa-arrow-down"></i></a>
-                    
-                    
-                    
+                 
                 </div>
+                <!-- Immagine jumbotron -->
                 <img id="img-jumbotron" src="img/jumbo.png" alt="Immagine jumbotron">
 
-            </div>
-            
-        </div>
-        
+            </div>          
+        </div>      
     </section>
+    <!-- Fine jumbotron -->
+
+
     
     <!-- Inizio del corpo centrale della pagina -->
     <main>
         <div class="container">
             
             <!-- Inizio sezione tariffe applicabili -->
-            <section class="rates">
+            <section class="tariffe">
                 
                 <!-- Titolo introduttivo varie tariffe -->
-                <Div class="title-rates">
-                    
+                <Div class="title-tariffe">
+
+                    <h2>
+
+                        Trova il piano Dropbox Business che fa per te
+
+                    </h2>
+                    <!-- Offerte e costi -->
+                    <div class="offerte-costi">
+                        <!-- CERCARE DI CAPIRE COME FARE I BUTTON -->
+                        <!-- Offerte costi mensili -->
+                        <span id=" mensile">
+                            <div id="cerchio-check"></div>
+                            <strong>Fatturazione mensile</strong>
+                        </span>
+    
+                        <!-- Offerte costi mensili -->
+                        <span id="annuale">
+                            <div id="cerchio"></div>
+                            <strong> Fatturazione annuale</strong>
+                        </span>
+
+                    </div>
                     
                     <!-- Button per cambiare il tipo di piano -->
                     <div class="choose-plan"></div>
                 </Div>
                 
                 <!-- Layout dei piani tariffari -->
-                <div class="col">
+                <div class="col colonne">
                     
                     <!-- Colonna piano professionale -->
-                    <div class="col col-sx"></div>
+                    <div class="col col-sx">
+                        <div class="clas-offerta">
+                            <span > 
+                                <i class="far fa-user"></i>
+                                Singolo
+                            </span>
+                        </div>
+                        <div class="features-offerta">
+                            <!-- Nome offerta -->
+                            <h3>Professional</h3>
+
+                            <!-- Prezzo offerta -->
+                            <div class="price"><strong>19,99&#8364;</strong></div>
+                            <div class="periodo-price">/mese</div>
+
+                            <!-- Utenti disponibili -->
+                            <div class="utenti"><i class="far fa-user"></i> 1 utente</div>
+
+                            <!-- Spazio a disposizione nel server -->
+                            <div class="memoria"><i class="far fa-folder"></i>3 TB di spazio di archiviazione sicuro</div>
+
+                            <!-- Aspetti del servizio -->
+                            <div class="servizio"><i class="fas fa-pencil-alt"></i>Funzioni di produttività premium e condivisione dei file semplice e sicura</div>
+
+                            <!-- Prova gratuita -->
+                            <div class="btn-gratuito"><a class="btn" href="#">Prova gratis per 30 giorni</a></div>
+
+                            <!-- Acquista ora -->
+                            <div><span class="oppure">oppure</span><a id="acquista-ora" href="#">acquista ora</a></div>
+
+                            <!-- Punti importanti del piano tariffario -->
+                            <h4>Punti salienti del piano</h4>
+
+                            <!-- Funzionalita -->
+                            <div> <i class="fas fa-check"></i> Invia file fino a 100Gb con Dropbox Transfer</div>
+
+                            <div><i class="fas fa-check"></i>Cartelle offline sui dispositivi mobili</div>
+
+                            <div><i class="fas fa-check"></i>Pulizia remota dell'account</div>
+
+                            <div><i class="fas fa-check"></i>Filigrana documento</div>
+
+                            <div><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</div>
+                            
+                        </div>
+                    </div>
                     
                     <!-- Colonna piano standard -->
-                    <div class="col col-middle"></div>
+                    <div class="col col-middle">
+                        <div class="clas-offerta">
+                            <span > 
+                                <i class="far fa-user"></i>
+                                Team
+                            </span>
+                        </div>
+                        <div class="features-offerta">
+                            <!-- Nome offerta -->
+                            <h3>Professional</h3>
+
+                            <!-- Prezzo offerta -->
+                            <div class="price"><strong>19,99&#8364;</strong></div>
+                            <div class="periodo-price">/mese</div>
+
+                            <!-- Utenti disponibili -->
+                            <div class="utenti"><i class="far fa-user"></i> 1 utente</div>
+
+                            <!-- Spazio a disposizione nel server -->
+                            <div class="memoria"><i class="far fa-folder"></i>3 TB di spazio di archiviazione sicuro</div>
+
+                            <!-- Aspetti del servizio -->
+                            <div class="servizio"><i class="fas fa-pencil-alt"></i>Funzioni di produttività premium e condivisione dei file semplice e sicura</div>
+
+                            <!-- Prova gratuita -->
+                            <div class="btn-gratuito"><a class="btn" href="#">Prova gratis per 30 giorni</a></div>
+
+                            <!-- Acquista ora -->
+                            <div><span class="oppure">oppure</span><a id="acquista-ora" href="#">acquista ora</a></div>
+
+                            <!-- Punti importanti del piano tariffario -->
+                            <h4>Punti salienti del piano</h4>
+
+                            <!-- Funzionalita -->
+                            <div> <i class="fas fa-check"></i> Invia file fino a 100Gb con Dropbox Transfer</div>
+
+                            <div><i class="fas fa-check"></i>Cartelle offline sui dispositivi mobili</div>
+
+                            <div><i class="fas fa-check"></i>Pulizia remota dell'account</div>
+
+                            <div><i class="fas fa-check"></i>Filigrana documento</div>
+
+                            <div><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</div>
+                            
+                        </div>
+                    </div>
                     
                     <!-- Colonna piano advancer -->
-                    <div class="col col-dx"></div>
+                    <div class="col col-dx">
+                        <div class="clas-offerta">
+                            <span > 
+                                <i class="far fa-user"></i>
+                                Team
+                            </span>
+                        </div>
+                        <div class="features-offerta">
+                            <!-- Nome offerta -->
+                            <h3>Professional</h3>
+
+                            <!-- Prezzo offerta -->
+                            <div class="price"><strong>19,99&#8364;</strong></div>
+                            <div class="periodo-price">/mese</div>
+
+                            <!-- Utenti disponibili -->
+                            <div class="utenti"><i class="far fa-user"></i> 1 utente</div>
+
+                            <!-- Spazio a disposizione nel server -->
+                            <div class="memoria"><i class="far fa-folder"></i>3 TB di spazio di archiviazione sicuro</div>
+
+                            <!-- Aspetti del servizio -->
+                            <div class="servizio"><i class="fas fa-pencil-alt"></i>Funzioni di produttività premium e condivisione dei file semplice e sicura</div>
+
+                            <!-- Prova gratuita -->
+                            <div class="btn-gratuito"><a class="btn" href="#">Prova gratis per 30 giorni</a></div>
+
+                            <!-- Acquista ora -->
+                            <div><span class="oppure">oppure</span><a id="acquista-ora" href="#">acquista ora</a></div>
+
+                            <!-- Punti importanti del piano tariffario -->
+                            <h4>Punti salienti del piano</h4>
+
+                            <!-- Funzionalita -->
+                            <div> <i class="fas fa-check"></i> Invia file fino a 100Gb con Dropbox Transfer</div>
+
+                            <div><i class="fas fa-check"></i>Cartelle offline sui dispositivi mobili</div>
+
+                            <div><i class="fas fa-check"></i>Pulizia remota dell'account</div>
+
+                            <div><i class="fas fa-check"></i>Filigrana documento</div>
+
+                            <div><i class="fas fa-check"></i>Assistenza prioritaria via email e chat</div>
+                            
+                        </div>
+                    </div>
                     
-                    <!-- Colonna piano enterprise -->
-                    <div class="col col-bottom"></div>
                 </div>
+                <!-- Colonna piano enterprise -->
+                <div class="col col-bottom"></div>
                 <!-- Fine layout dei piani tariffari -->
             </section>
             <!-- Fine sezione tariffe applicabili -->
