@@ -376,7 +376,35 @@ main{
 /* Inizio sezione offerte business */
 
 .business-plan{
-    padding: 120px 0;
+    margin-top: 150px;
+    width: 100%;
+    
+}
+.business-plan h2{
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 700;
+}
+.chest h3{
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.businesstext span{
+    text-decoration: underline;
+}
+
+.business-plan .pik{
+    width: 100%; 
+   
+}
+
+.business-plan .chest{
+    width: calc( 100% / 3 - 20px);
+    margin: 0 10px;
+    float: left;
+    
+    
 }
 
 /* Fine sezione offerte business */
