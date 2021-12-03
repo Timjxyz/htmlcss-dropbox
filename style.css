@@ -22,7 +22,6 @@ body{
     text-align: left;
     width: 100%;
     float: left;
-    min-height: 1000px;
     
 }
 
@@ -249,47 +248,60 @@ main{
 }
 
 .clas-offerta{
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid #d3d3d6;
     text-align: center;
     padding: 10px 0;
 }
 
 .features-offerta{
     padding-left: 20px;
+    text-align: left;
 }
 
 
 .col.col-sx{
     width: calc( 100% / 3 - 20px );
-    border:1px solid black;
+    border:1px solid #d3d3d6;
+    min-height: 1000px;
 
 }
 
 .col.col-middle{
     margin: 0 20px;
     width: calc( 100% / 3 - 20px);
-    border:1px solid black;
+    border:1px solid #d3d3d6;
+    min-height: 1000px;
     
 
 }
 
 .col.col-dx{
     width: calc( 100% / 3 - 20px );
-    border:1px solid black;
+    border:1px solid #d3d3d6;
+    min-height: 1000px;
 }
 
 .col.col-bottom{
-    
+    margin-top: 50px;
     height: 200px;
-    background-color: mediumorchid;
+    border: 1px solid #d3d3d6;
+    height: 300px;
+    max-height: 210px;
+    position: relative;
 
+}
+
+.btn.col-btn{
+    position: absolute;
+    top: 65px;
+    right: 30px;
+}
+
+.col-bottom .features-offerta h4{
+    padding: 20px 0;
 }
 
 /* Parti in comune all'interno della zezione tariffe */
-.features-offerta h3{
-    padding-top: 20px;
-    font-size: 25px;
-}
 .features-offerta .price{
     padding-bottom: 0px;
 }
@@ -311,12 +323,26 @@ main{
 .oppure{
     padding-bottom: 30px;
     padding-right: 5px;
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid #d3d3d6;
 }
 
+.features-offerta h3{
+    padding-top: 20px;
+    font-size: 25px;
+    font-weight: 800;
+}
 
 .features-offerta h4{
     padding-top: 50px;
+}
+
+.col .far{
+    padding-right: 5px;
+    display: inline-block;
+}
+
+.col .fas{
+    padding-right: 5px;
 }
 /* Fine prima sezione TARIFFE */
 
