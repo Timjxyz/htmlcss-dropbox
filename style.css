@@ -210,7 +210,7 @@ main{
 .tariffe{
     width: 100%;
     min-height: 1000px;
-    padding: 150px 0;
+    padding-top: 150px;
    
 }
 
@@ -338,11 +338,36 @@ main{
 
 /* Inizio sezione social */
 .social{
-    padding: 120px 0;
-    width: 100%;
-    min-height: 420px;
-    background-color: mediumturquoise;
+    padding-top: 100px;
 }
+#social-foto{
+    float: left;
+    width: 50%;
+    
+}
+
+.social-text{
+    float: right;
+    width: 50%;
+    padding-left: 50px;
+ 
+}
+
+.social-text h3{
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+.social-text p{
+    margin-top: 20px;
+}
+ .social-text a{
+     margin-top: 20px;
+     background-color: white;
+     color: black;
+     font-weight: 500;
+     border: 1px solid black;
+ }
 
 
 /* Fine sezione social */
