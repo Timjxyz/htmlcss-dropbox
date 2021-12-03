@@ -258,29 +258,6 @@ main{
     text-align: left;
 }
 
-
-.col.col-sx{
-    width: calc( 100% / 3 - 20px );
-    border:1px solid #d3d3d6;
-    min-height: 1000px;
-
-}
-
-.col.col-middle{
-    margin: 0 20px;
-    width: calc( 100% / 3 - 20px);
-    border:1px solid #d3d3d6;
-    min-height: 1000px;
-    
-
-}
-
-.col.col-dx{
-    width: calc( 100% / 3 - 20px );
-    border:1px solid #d3d3d6;
-    min-height: 1000px;
-}
-
 .col.col-bottom{
     margin-top: 50px;
     height: 200px;
@@ -302,6 +279,17 @@ main{
 }
 
 /* Parti in comune all'interno della zezione tariffe */
+.wh-20{
+    width: calc( 100% / 3 - 20px);
+    margin: 0 10px;
+}
+.bordo{
+    border:1px solid #d3d3d6;
+
+}
+.min-he{
+    min-height: 1000px;
+}
 .features-offerta .price{
     padding-bottom: 0px;
 }
