@@ -77,7 +77,7 @@ section::after{
     clear: both;
 
 }
-.container-responsive::after{
+.container-wh100::after{
     display: table;
     content: "";
     clear: both;
@@ -173,8 +173,8 @@ header .row nav{
 /* Fine regole header */
 
 /* Inizio regole jumbotron */
-.container-jumbo{
-    width: 80vw;
+.container-wh100{
+    width: 80%;
     max-width: 1180px;
     min-width: 780px;
     margin: auto;
@@ -310,7 +310,7 @@ main{
     padding: 20px 0;
 }
 
-/* Parti in comune all'interno della zezione tariffe */
+/* Parti in comune all'interno della sezione tariffe */
 .wh-20{
     width: calc( 100% / 3 - 20px);
     margin: 0 10px;
@@ -622,10 +622,52 @@ main{
 /* Fine regole da applicare a main e alle sue sezioni */
 
 /* Inizio del footer */
-.footer-nav{
+footer{
+    width:100%;
     background-color: black;
-    height: 600px;
+    min-height: 500px;
+   
 }
+
+
+
+.footer-nav ul{
+    display: inline-block;
+    width: calc( 100% / 5 - 20px);
+    margin: 0 10px;
+    float: left;
+    
+}
+.footer-nav  .title-nav{
+    padding: 20px 0;
+    font-size: 16px;
+}
+
+.footer-nav a{
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 0;
+    font-size: 14px;
+}
+footer .container-wh100{
+    position: relative;
+
+}
+
+footer .rule{
+    position: absolute;
+    top: 300px;
+    width: 100px;
+}
+footer .lingua{
+    position: absolute;
+    top: 350px;
+    font-size: 12px;
+    color: #d3d3d6;
+    
+}
+
 
 
 /* Fine del footer */
