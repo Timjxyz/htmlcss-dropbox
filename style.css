@@ -9,6 +9,9 @@ body{
     font-family: 'Open Sans', sans-serif;
     
 }
+html{
+    scrollbar-arrow-color: blueviolet;
+}
 
 
 .container{
@@ -41,6 +44,19 @@ body{
 /* Fine regole con button */
 
 /* Inizio regole hover */
+header li:hover #blind{
+    display: block;
+    background-color: white;
+    position: absolute;
+    text-align: left;
+    
+}
+
+#blind a:hover{ 
+    text-decoration: underline;
+    text-align: right;
+    
+}
 header nav .here:hover {
     border-bottom: 3px solid black; 
 }
@@ -48,6 +64,10 @@ header nav .here:hover {
 .text-faq:hover p{
     display: block;
    
+}
+footer nav a:hover{
+    text-decoration: underline;
+    color: white;
 }
 
 /* Fine regole hover */
@@ -168,6 +188,25 @@ header .row nav{
     
 }
 
+#blind{
+    display: none;
+    
+}
+
+#blind li{
+    display: block;
+    text-align: center;
+    min-width: 160px;
+    
+    
+    
+    
+}
+#blind li a{
+    
+    display: block;
+    
+}
 /* Fine regole nav */
 
 /* Fine regole header */
