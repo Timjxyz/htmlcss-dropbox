@@ -68,6 +68,16 @@ section::after{
     clear: both;
 
 }
+.container-responsive::after{
+    display: table;
+    content: "";
+    clear: both;
+}
+.brand-partner::after{
+    display: table;
+    content: "";
+    clear: both;
+}
 
 .clearfix{
     clear: both;
@@ -438,6 +448,7 @@ main{
 }
 .container-responsive .container a{
     color: #0061ff;
+    font-weight: 500;
     
 }
 
@@ -555,9 +566,26 @@ main{
 
 
 
-.try-free{
-    min-height: 400px;
+ .container .try-free{
+    min-height: 300px;
     background-color: #b4d0e7;
+    padding-top: 50px;
+    position: relative;
+}
+
+.try-free h2{
+    font-size: 30px;
+    padding-top: 40px;
+    color: #61082b;
+    
+}
+.try-free .btn.free{
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 100px;
+    right: 20px;
+    font-weight: 600;
 }
 /* Fine sezione brand-partner  */
 
