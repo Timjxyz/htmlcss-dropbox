@@ -41,20 +41,33 @@ html{
     color: white;
     padding: 7px 16px;
 }
+.btn:hover{
+    background-color: gray;
+    color: yellow;
+}
+.btn-gratuito .btn:hover{
+    background-color: green;
+    color: black;
+}
 /* Fine regole con button */
 
 /* Inizio regole hover */
 header li:hover #blind{
     display: block;
-    background-color: white;
+    background-color: #ffffff;
     position: absolute;
     text-align: left;
     
 }
 
+#blind li:hover{ 
+    background-color: #d3d3d6;
+    
+}
 #blind a:hover{ 
     text-decoration: underline;
     text-align: right;
+    
     
 }
 header nav .here:hover {
@@ -118,7 +131,7 @@ section::after{
 
 /* Inizo regole header */
 .row{
-    min-width: 780px;
+    min-width: 1180px;
     height: 80px;
     position: fixed;
     top: 0;
@@ -132,7 +145,7 @@ header .row nav{
     height: 80px;
     width: 100%;
     line-height: 80px;
-    min-width: 1180px;
+   
 }
 
 /* Inizio regole nav */
@@ -142,10 +155,8 @@ header .row nav{
 }
 .row nav a{
     display: inline-block;
-   
     height: 80px;
-    
-    
+      
 }
 
 .row ul{
@@ -176,8 +187,8 @@ header .row nav{
 }
 
 .row nav .left-nav{
-    width: 50vw;
     
+    width: calc(100% - 50vw );
    
 }
 
@@ -195,18 +206,12 @@ header .row nav{
 
 #blind li{
     display: block;
-    text-align: center;
-    min-width: 160px;
+    text-align: left;
     
     
-    
-    
+   
 }
-#blind li a{
-    
-    display: block;
-    
-}
+
 /* Fine regole nav */
 
 /* Fine regole header */
@@ -482,7 +487,7 @@ main{
 .container-responsive{
     width: 100%;
     margin-top: 100px;
-    min-width: 1180px;
+    
 }
 
 .container-responsive .container h2{
@@ -514,8 +519,7 @@ main{
     background-color:  #f5f5f5;
     height: 30vw;
     overflow-y: auto;
-    
-    
+    max-width: 1180px;
     
 }
 
@@ -564,6 +568,7 @@ main{
 .designit-text{
     margin-top: 80px;
     margin-left: 30px;
+    
     
 }
 .designit{
