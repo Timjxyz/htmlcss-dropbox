@@ -574,7 +574,7 @@ main{
 
 }
 
-.rule{
+.ruler{
     width: 40px;
     border: 1px solid #d3d3d6;
     margin-bottom: 20px;
@@ -717,7 +717,7 @@ footer .container-wh100{
 
 }
 
-footer .rule{
+footer .ruler{
     position: absolute;
     top: 300px;
     width: 100px;
